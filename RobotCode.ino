@@ -20,7 +20,7 @@ void setup()
   Serial.println("<Robot name> Welcomes you");
 
   
- some lines are missing because of security purpose! so, this is an error code, contact > abu.sayed@northsouth.edu
+ some lines are missing because of security purpose! so, this is an error code, contact to find full version> abu.sayed@northsouth.edu
   
   
   
@@ -43,7 +43,7 @@ void loop()
 
 
 
-some lines are missing because of security purpose! so, this is an error code, contact > abu.sayed@northsouth.edu
+some lines are missing because of security purpose! so, this is an error code, contact to find full version > abu.sayed@northsouth.edu
 
 
 
