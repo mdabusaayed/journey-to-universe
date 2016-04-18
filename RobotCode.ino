@@ -18,12 +18,8 @@ void setup()
   pinMode(RmotorUp,OUTPUT);
   pinMode(RmotorDn,OUTPUT);
   Serial.println("<Robot name> Welcomes you");
-
-  
- some lines are missing because of security purpose! so, this is an error code, contact to find full version> abu.sayed@northsouth.edu
-  
-  
-  
+  delay(1000);
+  fire.attach(12);
   pinMode(led,OUTPUT);
 } 
   
@@ -39,17 +35,14 @@ void loop()
     fire.write(pos);
     delay(10);
   }
- 
-
-
-
-some lines are missing because of security purpose! so, this is an error code, contact to find full version > abu.sayed@northsouth.edu
-
-
-
-
-
-
+  delay(300000);}
+  
+  sensorValue = analogRead(analogInPin);
+  outputValue = map(sensorValue, 450, 1023, 112, 255);
+  Serial.print("sensor=  ");
+  Serial.print(sensorValue);
+  Serial.print("\t liquid point= ");
+  Serial.println(outputValue);
   delay(500);
   if(sensorValue>0){
     digitalWrite(led,HIGH);
